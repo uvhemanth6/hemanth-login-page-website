@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(rgb(239, 78, 239),rgb(250, 114, 136));
+}
+
+.form {
+    background-color: white;
+    width: 300px;
+    padding: 30px 20px;
+    align-content: center;
+    box-shadow: 1px 2px 3px rgba(0.3,0.3,0.3);
+    border-radius: 10px;
+}
+.form .title {
+    margin-top: 0;
+    text-align: center;
+}
+
+.small-buttons {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.link {
+    padding: 10px;
+    width: 48%;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid rgb(216, 32, 136);
+    background-image: linear-gradient(rgb(239, 78, 239),rgb(250, 114, 136));
+    text-decoration: none;
+}
+.link:hover{
+    background-image: linear-gradient(rgb(236, 25, 236),rgb(220, 29, 61));
+}
+
+.signup-button {
+    padding: 10px;
+    width: 48%;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid rgb(216, 32, 136);
+    text-decoration: none;
+}
+.signup-button:hover{
+    background-image: linear-gradient(rgb(239, 78, 239),rgb(250, 114, 136));
+}
+
+.data {
+    padding: 10px 10px;
+    border: 2px solid rgb(146, 146, 146);
+    border-radius: 9px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    width: 100%;
+}
+ 
+.forgot-password {
+    text-decoration: none;
+    color: rgb(216, 32, 136);
+}
+.forgot-password:hover{
+    text-decoration: underline;
+}
+
+
+.login-button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px 14px;
+    font-size: 17px;
+    color: white;
+    background-image: linear-gradient(rgb(239, 78, 239),rgb(250, 114, 136));
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.login-button:hover{
+    background-image: linear-gradient(rgb(236, 25, 236),rgb(220, 29, 61));
+}
+
+.not-member {
+    text-align: center;
+}
+.not-member .sign-up {
+    text-decoration: none;
+}
+.not-member .sign-up:hover{
+    text-decoration: underline;
+}
+
+
+
+
